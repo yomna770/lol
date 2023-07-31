@@ -1,0 +1,121 @@
+*{
+     font-family: 'Work Sans', sans-serif; 
+    padding: 0;
+    margin: 0;
+
+}
+/* header section starts */
+header{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 0 40px;
+margin-top: 20px;
+background-color: white;
+}
+header .logo{
+    width: 60px;
+}
+header .logo img{
+    width: 100%;
+}
+header .links .icon{
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+header .links .icon span{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 2px;
+    display: block;
+    background-color:rgb(71, 67, 67);
+}
+header .links .icon .different{
+    width: 70%;
+    text-align: right;
+    transition: all 160ms linear;
+}
+header .links .icon:hover .different{
+    width: 100%;
+}
+header .links ul , a{
+      list-style: none;
+      list-style-type: none;
+      color: rgb(71, 67, 67);
+      text-decoration: none;
+      font-size: 20px;
+      display: none;
+      transition: all 2s ease-in-out;
+}
+/* header section ends */
+/* home section starts here */
+.home {
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    font-family: 'Work sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .content h1{
+   color: #10cab7; 
+   font-size: 51px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.home .content p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 2;
+}
+/* home section ends */
+/* sections section start*/
+
+.section .se1 .i , .se2 .i , .se3 .i{
+    font-size: 50px;
+    color: #10cab7;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.section .se1, .se2 , .se3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section .se1text h2 {
+    padding: 40px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section .se1text p{
+    line-height: 2rem;
+    color: rgb(107, 104, 104);
+    font-size: 20px;
+}
+.section .se1text{
+    width: 100%;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #f6f6f6;
+    flex-wrap: wrap;
+}
+/* section end here */
+/* services area starts here */
+#Services .up h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #ebeced;
+}
+#Services .up p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -25px;
+}
+#Services .up{
+    text-align: center;
+}
